@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Psn price:</strong>
+  <%= @game.psn_price %>
+</p>
+
+<p>
+  <strong>Amazon price:</strong>
+  <%= @game.amazon_price %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @game.title %>
+</p>
+
+<p>
+  <strong>Psn:</strong>
+  <%= @game.psn_id %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @game.region %>
+</p>
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>
