@@ -28,13 +28,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 group :test do
-  gem 'rspec'
   gem 'rspec-rails'
-  gem 'cucumber'
-  gem 'factory_girl'
+  gem 'cucumber-rails', require: false
   gem 'factory_girl_rails'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', '~> 1.15.0'
   gem 'capybara'
 end
 
